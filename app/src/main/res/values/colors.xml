@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for app -->
+    <color name="app_background">#fff9f9</color>
+
+    <color name="category_restaurant">#D32F2F</color>
+    <color name="category_sites">#fdcf00</color>
+    <color name="category_history">#1976D2</color>
+    <color name="category_events">#388E3C</color>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Greece Tour Guide App</string>
+    <string name="category_restaurant">Restaurant</string>
+    <string name="category_sites">Sites</string>
+    <string name="category_events">Events</string>
+    <string name="category_history">History</string>
+</resources>

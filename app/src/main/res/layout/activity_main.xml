@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10sp">
+
+
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#5000b9"
+            android:textColor="#ffff"
+            style="@style/WelcomeStyle"
+            android:text="Welcome to Santorini"
+            />
+
+        <TextView
+            android:id="@+id/sites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@drawable/circle_design"
+            android:backgroundTint="@color/category_sites"
+            android:text="Sites"
+            />
+
+        <TextView
+            android:id="@+id/events"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@drawable/circle_design"
+            android:backgroundTint="@color/category_events"
+            android:text="Events"
+            />
+
+        <TextView
+            android:id="@+id/restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CategoryStyle"
+            android:background="@drawable/circle_design"
+            android:backgroundTint="@color/category_restaurant"
+            android:text="Restaurant"
+            />
+
+        <TextView
+            android:id="@+id/history"
+            style="@style/CategoryStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle_design"
+            android:backgroundTint="@color/category_history"
+            android:text="History" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

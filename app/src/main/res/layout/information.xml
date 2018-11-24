@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="1sp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acropolis Hill"
+            android:textSize="20dp"
+            android:textColor="#4100cc"/>
+
+        <ImageView
+            android:id="@+id/historyPic"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/greecehistory"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dinner in Sky"
+            android:textSize="20dp"
+            android:textColor="#4100cc"/>
+        <ImageView
+            android:id="@+id/restaurantPic"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/dinnerinsky"
+            android:layout_gravity="center_horizontal"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Santorini, Greece"
+            android:textSize="20dp"
+            android:textColor="#4100cc"/>
+        <ImageView
+            android:id="@+id/sitesPic"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/greecesites"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="St. Mark's Square Festival Dancing"
+            android:textSize="20dp"
+            android:textColor="#4100cc"/>
+        <ImageView
+            android:id="@+id/eventsPic"
+            android:layout_width="300dp"
+            android:layout_height="250dp"
+            android:src="@drawable/greecefestivaldancing"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
